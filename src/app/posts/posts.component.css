@@ -1,0 +1,351 @@
+.nav {
+    margin-top: 40px;
+    font-family: 'IBM Plex Sans';
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.link {
+    display: flex;
+    align-items: center;
+
+}
+
+.active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.btn-group .btn {
+    background: #EDEEF0;
+    border-radius: 4px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: none;
+    color: black;
+    box-shadow: none;
+}
+
+.button {
+
+    background: #2F6CE5;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    /* position: absolute; */
+    /* width: 692px; */
+    /* height: 472px; */
+    left: 200px;
+    top: 628px;
+    margin-top: 28px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.article {
+    /* width: 690px; */
+    height: 220px;
+    left: 200px;
+    top: 628px;
+    border-radius: 4px 4px 0px 0px;
+
+    background-image: url("/assets/Rectangle5.png");
+}
+
+h2 {
+    margin: 20px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 0px 20px;
+}
+
+.footer {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+}
+
+.footer .btn {
+    margin-left: 40px;
+    box-shadow: none;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.education {
+    /* width: 690px; */
+    height: 220px;
+    left: 200px;
+    top: 628px;
+    border-radius: 4px 4px 0px 0px;
+
+    background-image: url("/assets/Rectangle 5 (1).png");
+}
+
+.meetup {
+    /* width: 690px; */
+    height: 220px;
+    left: 200px;
+    top: 628px;
+    border-radius: 4px 4px 0px 0px;
+
+    background-image: url("/assets/Rectangle 5 (2).png");
+}
+
+.post .d-grid .btn {
+    border: 1px solid gray;
+    margin: 0 20px;
+    outline: none;
+    color: #E56135;
+    box-shadow: none;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.info div {
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.input-group-text {
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+    box-shadow: none;
+}
+
+.form-control {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    box-shadow: none;
+}
+
+.col-md-4 p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.input-group {
+    margin-top: 55px;
+}
+
+.msg {
+    display: flex;
+    margin-top: 32px;
+}
+
+.col-md-4 h1 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 54px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.group .btn {
+    padding: 0 10px;
+    border-radius: 50px;
+    margin: 20px 10px;
+    box-shadow: none;
+}
+
+.more {
+    text-align: right;
+    color: #2F6CE5;
+}
+
+@media screen and (min-width: 250px)and (max-width:600px){
+    .button {
+        box-sizing: border-box;
+        position: absolute;
+        width: 100px;
+        height: 28px;
+        left: 70%;
+        top: 10%;
+        border: 0.8px solid #FFFFFF;
+        border-radius: 4px;
+        font-size: 12px;
+        padding: 5px;
+        background: none;
+    }
+}
+@media screen and (min-width: 601px)and (max-width:767px){
+    .button {
+        box-sizing: border-box;
+        position: absolute;
+        width: 100px;
+        height: 28px;
+        left: 80%;
+        top: 20%;
+        border: 0.8px solid #FFFFFF;
+        border-radius: 4px;
+        font-size: 12px;
+        padding: 5px;
+        background: none;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    .disabled,
+    .writepost {
+        display: none;
+    }
+
+    .active {
+        font-size: 13px;
+    }
+
+    .nav {
+        border: none;
+    }
+
+    
+    .button svg{
+        width: 20px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .title svg{
+        width: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .footer img{
+        width: 35px;
+        height: 35px;
+    }
+    .footer h3{
+        font-size: 12px;
+    }
+    .footer .btn{
+        margin: 0;
+    }
+    .footer p{
+        margin: 0 10px;
+    }
+    .info h5{
+        font-size: 13px;
+    }
+    .info div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 10px;
+        
+    }
+    .info svg{
+        width: 14px;
+    }
+}
+@media screen and (min-width: 768px)and (max-width:992px){
+    .button svg{
+        width: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .title svg{
+        width: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .footer img{
+        width: 35px;
+        height: 35px;
+    }
+    .footer h3{
+        font-size: 14px;
+    }
+    .footer .btn{
+        margin: 0;
+    }
+    .footer p{
+        margin: 0 10px;
+    }
+    .info h5{
+        font-size: 15px;
+    }
+    .info div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 10px;
+        
+    }
+    .info svg{
+        width: 14px;
+    }
+    .filter{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px)and (max-width:2000px){
+    .filter{
+        display: none;
+    }
+}

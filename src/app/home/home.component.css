@@ -1,0 +1,188 @@
+.searchbar {
+    /* margin: 50px 10px 50px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #F2F2F2; */
+    border-radius: 21px;
+    width: 360px;
+}
+
+.searchbar .form-control {
+    /* position: absolute; */
+    background: #F2F2F2;
+    border: none;
+    border-radius: 50px;
+    box-shadow: none;
+}
+
+.searchbar span{
+    margin-right: 0;
+    background: #F2F2F2;
+    border: none;
+    color: gray;
+    border-radius: 50px;
+}
+.form-control::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    line-height: 21px;
+    padding: 0 70px;
+
+}
+
+p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0;
+    text-align: right;
+    color: #2E2E2E;
+}
+span{
+    color: blue;
+    margin-right: 10px;
+}
+.img {
+    height: 440px;
+    background-image: url("/assets/Rectangle2.png");
+    background-size: 100% 440px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+h1 {
+    /* position: absolute;
+    width: 378px;
+    height: 47px;
+    left: 200px;
+    top: 358px; */
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+h6 {
+    /* position: absolute;
+    width: 327px;
+    height: 23px;
+    left: 200px;
+    top: 409px; */
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+
+    color: #FFFFFF;
+}
+.modal-header,.offcanvas-header{
+    background-color: #EFFFF4;
+    
+}
+.modal-header .modal-title,.offcanvas-title{
+   color:#008A45 ; 
+   font-weight: 500;
+   font-size: 14px;
+   padding-left: 60px;
+}
+.offcanvas-bottom{
+    height: 550px;
+    overflow-y: hidden; 
+}
+
+@media screen and (min-width: 551px)and (max-width: 2000px){
+    .small{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px){
+    .big{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+
+    .searchbar{
+        display: none;
+    }
+    h1{
+        
+        font-weight: 600;
+        font-size: 22px;
+    }
+    h6{
+        
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .img {
+        height: 250px;
+        
+    }
+    .navbar{
+        padding: 0 20px;
+        height: 50px;
+        flex-wrap: nowrap;
+    }
+    .logo{
+        width: 100px;
+    }
+    span{
+        display: none;
+    }
+    p{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 21px;  
+    }
+
+}
+@media screen and (min-width: 767px) and (max-width: 992px){
+    .navbar{
+        padding: 0 20px;
+        height: 50px;
+        flex-wrap: nowrap;
+    }
+    .logo{
+        width: 130px;
+    }
+    
+    p{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 21px;  
+    }
+    
+}
